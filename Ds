@@ -1,0 +1,14 @@
+# Python does not use curly brackets for code blocks
+# but they are used for dictionaries and sets
+
+# Using curly brackets to define a dictionary
+my_dict = {"name": "John", "age": 30}
+
+if my_dict["age"] > 18:
+    print("Adult")
+else:
+    print("Not an adult")
+    
+# Using curly brackets for a set
+my_set = {1, 2, 3, 4}
+print(my_set)
